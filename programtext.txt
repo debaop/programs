@@ -1,0 +1,96 @@
+My C Programs :-
+1. Binary+AF8-search+AF8-Program +IZI-
++ACM-include +ADw-stdio.h+AD4-
+int main()
++AHs-
++AKA- +AKA- int i, f, l, m, n, t, a+AFs-100+AF0AOw-
++AKA- +AKA- printf(+ACI-How many numbers ?+AFw-n+ACI-)+ADs-
++AKA- +AKA- scanf(+ACIAJQ-d+ACI-, +ACY-n)+ADs-
++AKA- +AKA- printf(+ACI-enter +ACU-d integers+AFw-n+ACI-, n)+ADs-
++AKA- +AKA- for (int i +AD0- 0+ADs- i +ADw- n+ADs- i+-+-)
++AKA- +AKA- +AHs-
++AKA- +AKA- +AKA- +AKA- scanf(+ACIAJQ-d+ACI-, +ACY-a+AFs-i+AF0-)+ADs-
++AKA- +AKA- +AH0-
+
++AKA- +AKA- printf(+ACI-which value to find?+AFw-n+ACI-)+ADs-
++AKA- +AKA- scanf(+ACIAJQ-d+ACI-, +ACY-t)+ADs-
++AKA- +AKA- f +AD0- 0+ADs-
++AKA- +AKA- l +AD0- n - 1+ADs-
++AKA- +AKA- m +AD0- (f +- l) / 2+ADs-
++AKA- +AKA- while (f +ADwAPQ- l)
++AKA- +AKA- +AHs-
++AKA- +AKA- +AKA- +AKA- if (a+AFs-m+AF0- +ADw- t)
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- f +AD0- m +- 1+ADs-
++AKA- +AKA- +AKA- +AKA- else if (a+AFs-m+AF0- +AD0APQ- t)
++AKA- +AKA- +AKA- +AKA- +AHs-
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- printf(+ACI-The number +ACU-d found at location +ACU-d +AFw-n+ACI-, t, m +- 1)+ADs-
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- break+ADs-
++AKA- +AKA- +AKA- +AKA- +AH0-
++AKA- +AKA- +AKA- +AKA- else
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- l +AD0- m - 1+ADs-
+
++AKA- +AKA- +AKA- +AKA- m +AD0- (f +- l) / 2+ADs-
+
++AKA- +AKA- +AKA- +AKA- if (f +AD4- l)
++AKA- +AKA- +AKA- +AKA- +AHs-
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- printf(+ACI-The number +ACU-d not found in list +ACI-, t)+ADs-
++AKA- +AKA- +AKA- +AKA- +AH0-
++AKA- +AKA- +AH0-
+
++AKA- +AKA- return 0+ADs-
++AH0-
+
+2. Prime+AF8-num+AF8-checker:-
++ACM-include +ADw-stdio.h+AD4-
+int main()
++AHs-
++AKA- +AKA- int n, i+ADs-
++AKA- +AKA- printf(+ACI-enter the number to check if the number is prime or not : +ACI-)+ADs-
++AKA- +AKA- scanf(+ACIAJQ-d+ACI-, +ACY-n)+ADs-
++AKA- +AKA- if (n +ADwAPQ- 1)
++AKA- +AKA- +AHs-
++AKA- +AKA- +AKA- +AKA- printf(+ACI-this is not prime number+ACI-)+ADs-
++AKA- +AKA- +AKA- +AKA- return 0+ADs-
++AKA- +AKA- +AH0-
++AKA- +AKA- for (i +AD0- 2+ADs- i +ACo- i +ADwAPQ- n+ADs- +-+-i)
++AKA- +AKA- +AHs-
++AKA- +AKA- +AKA- +AKA- if (n +ACU- i +AD0APQ- 0)
++AKA- +AKA- +AKA- +AKA- +AHs-
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- printf(+ACI-The number +ACU-d is not prime number+ACI-, n)+ADs-
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- /+ACo- code +ACo-/
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- return 0+ADs-
++AKA- +AKA- +AKA- +AKA- +AH0-
++AKA- +AKA- +AH0-
++AKA- +AKA- printf(+ACI-The number +ACU-d is +AKA-a prime number+ACI-, n)+ADs-
+
++AKA- +AKA- return 0+ADs-
++AH0-
+
+3. Fibonachi+AF8-series+IZI-
++ACM-include +ADw-stdio.h+AD4-
+
+int main() +AHs-
++AKA- +AKA- int n, i+ADs-
++AKA- +AKA- int a +AD0- 0, b +AD0- 1, c+ADs-
+
++AKA- +AKA- printf(+ACI-Enter the number of terms: +ACI-)+ADs-
++AKA- +AKA- scanf(+ACIAJQ-d+ACI-, +ACY-n)+ADs-
+
++AKA- +AKA- printf(+ACI-Fibonacci Series: +ACI-)+ADs-
+
++AKA- +AKA- for (i +AD0- 0+ADs- i +ADw- n+ADs- i+-+-) +AHs-
++AKA- +AKA- +AKA- +AKA- if (i +ADwAPQ- 1)
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- c +AD0- i+ADs-
++AKA- +AKA- +AKA- +AKA- else +AHs-
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- c +AD0- a +- b+ADs-
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- a +AD0- b+ADs-
++AKA- +AKA- +AKA- +AKA- +AKA- +AKA- b +AD0- c+ADs-
++AKA- +AKA- +AKA- +AKA- +AH0-
++AKA- +AKA- +AKA- +AKA- printf(+ACIAJQ-d +ACI-, c)+ADs-
++AKA- +AKA- +AH0-
+
+
+4. 
+
+
+
