@@ -1,5 +1,5 @@
 // Fetch the text content from a file (replace 'path/to/your/file.txt' with the actual file path)
-fetch('path/to/your/file.txt')
+fetch('programtext.txt')
   .then(response => response.text())
   .then(data => {
     // Display the text content in the pre element
