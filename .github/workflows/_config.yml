@@ -1,0 +1,4 @@
+# _config.yml
+sass:
+  load_paths:
+    - docs/assets/css
